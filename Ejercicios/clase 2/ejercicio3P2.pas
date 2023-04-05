@@ -49,7 +49,7 @@ begin
 	if eof(t) then
 		reg.cod := valorAlto
 	else
-		read(t,reg);
+		readln(t,reg.cod,' ',reg.nombre,' ',reg.stock,' ',reg.stockMin,' ',reg.precio,' ',reg.descripcion);
 end;
 procedure minimo(var dets:detalles; var regs:registros; var min:venta);
 var
